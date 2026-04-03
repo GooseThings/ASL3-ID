@@ -1,0 +1,14 @@
+[Unit]
+Description=ASL3 ID
+After=asterisk.service
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=5
+User=root
+ExecStart=/usr/local/bin/node_monitor.sh
+
+[Install]
+WantedBy=multi-user.target
