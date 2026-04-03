@@ -1,4 +1,4 @@
-# ASL3 Node Activity Monitor
+# ASL3 ID
 
 This Bash script monitors the keyed state of an **AllStarLink3 (ASL3)** node and provides audio notifications based on transmission activity. It is designed to run as a background service via `systemd`.
 
