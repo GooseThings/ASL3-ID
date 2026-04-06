@@ -4,9 +4,9 @@ This Bash script monitors the keyed state of an **AllStarLink3 (ASL3)** node and
 
 ## Features
 
-- **Initial Alert**: Plays a sound immediately when the node transitions from Idle to Active.
-- **Interval Alert**: Plays a sound every 10 minutes if the node remains continuously active.
-- **Idle Alert**: Plays a sound exactly 2 minutes after the node returns to an idle state.
+- **Initial ID**: Plays a sound immediately when the node transitions from Idle to Active.
+- **Interval ID**: Plays a sound every 10 minutes if the node remains continuously active.
+- **Idle ID**: Plays a sound exactly 2 minutes after the node returns to an idle state.
 - **Automatic Recovery**: Configured to restart automatically if the process or Asterisk service fluctuates.
 
 ## Prerequisites
@@ -22,7 +22,7 @@ This Bash script monitors the keyed state of an **AllStarLink3 (ASL3)** node and
 2.  Edit the script to set your **Node Number** and **Sound File** path:
     ```bash
     NODE="1234"  # Your node number
-    SOUND_FILE="/var/lib/asterisk/sounds/your_alert_file" # No extension
+    SOUND_FILE="/usr/share/asterisk/sounds/en/your_alert_file" # No extension
     ```
 3.  Make the script executable:
     ```bash
