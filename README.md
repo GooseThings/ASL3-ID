@@ -1,6 +1,6 @@
 # ASL3 ID
 
-This Bash script monitors the keyed state of an **AllStarLink3 (ASL3)** node and provides audio notifications based on transmission activity. It is designed to run as a background service via `systemd`.
+This Bash script monitors the keyed state of an **AllStarLink3 (ASL3)** node and sends a CW ID (or audio file if you want) based on transmission activity. This is meant to keep a repeater that may not have a controller with ID capability compliant with FCC regulations. It is designed to run as a background service via `systemd`.
 
 ## Features
 
